@@ -1,0 +1,183 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+svg{
+    background-color: rgba(21, 21, 21, 0.8);
+}
+nav{
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #343535;
+}
+nav>div{
+    height: 44px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>div>div{
+    width: 270px;
+    height: 44px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+nav img{
+    height: 36px;
+}
+nav i{
+    color: #ebebeb;
+    font-size: 18px;
+}
+nav>div>div+div{
+    width: 475px;
+    height: 32px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+nav>div>div+div>ol{
+    height: 32px;
+    width: 475px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ebebeb;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#li1{
+    display: flex;
+}
+nav>div>div+div>ol>li>i{
+    font-size: 10px;
+    padding: 5px;
+}
+section{
+    height: 635px;
+    /* border:2px solid; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+section>article{
+    /* border: 2px solid; */
+    height: 590px;
+    display: flex;
+    justify-content: center;
+}
+section>article>section{
+    height: 425px ;
+    /* border: 2px solid; */
+    width: 60%;
+    padding-top: 20px;
+}
+section>article>section>h1{
+    color: #ebebeb;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+section>article>section>h2{
+    color: #ebebeb;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+section>article>section>label{
+    background: #ebebeb;
+    border: 0;
+    border-radius: 4.5px;
+    color: #454647;
+    font-size: 18px;
+    height: 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section>article>section>label>input{
+    width: 92%;
+    height:32px;
+    border: #ebebeb ;
+    background-color: #ebebeb;
+}
+section>article>section>label>i{
+    padding: 6px;
+}
+section>aside{
+    text-indent: 30px;
+    background-color: #d9643a;
+    /* border: 2px solid; */
+    height: 45px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+section>aside a{
+    color: black;
+}
+footer{
+    height: 268px;
+    background: #242525;
+    color: #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer>aside{
+    height: 77%;
+    width: 96%;
+    /* border: 2px solid white; */
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    color: #ebebeb;
+}
+footer>aside>aside>img{
+    height: 55px;
+}
+footer ol, footer p{
+    list-style: none;
+    line-height: 25px;
+    font-family: "Ubuntu", sans-serif;
+}
+footer div{
+    font-size: 14px;
+    color: #a6a6a6;
+}
+footer i{
+    color: #ffffff;
+    font-size: 18px;
+}
+footer li{
+    width: 175px;
+}
+footer ol+ol+ol>li{
+    width: 100px;
+}
+footer i:hover, footer li:hover{
+    cursor: pointer;
+    color:#d9643a;
+}
+main{
+    width: 100%;
+    position: absolute;
+    top: 0%;
+}
+input::placeholder{
+    font-size: 18px;
+    color: #454647;
+}
+img:hover{
+    cursor: pointer;
+}
+nav>div>div>i:hover, nav li:hover{
+    cursor: pointer;
+    color: #7c7777;
+}
